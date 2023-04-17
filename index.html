@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Dashboard App</title>
+</head>
+
+<body>
+
+  <aside id="reset">
+    <i class="fas fa-sign-out-alt fa-lg"></i>
+  </aside>
+
+  <header>
+    <ul id="weather">
+      <li>
+        <span></span>
+      </li>
+      <li>
+        <span></span>
+      </li>
+    </ul>
+  </header>
+
+  <main>
+    <h1 id="clock">00:00:00</h1>
+
+    <h2 id="greeting" class="hidden"></h2>
+    <form id="login-form" class="hidden">
+      <h2 id="loginGuideMsg">Please write your name</h2>
+      <input id="login-input" type="text" maxlength="15" autofocus required>
+    </form>
+
+    <form id="toDo-form" class="hidden">
+      <h2 id="toDoGuideMsg">Please write your main task</h2>
+      <input type="text" autofocus required>
+    </form>
+    <ul id="toDo-list" class="hidden"></ul>
+  </main>
+
+  <footer>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/6247a991a3.js" crossorigin="anonymous"></script>
+  <script src="./js/backgrounds.js"></script>
+  <script src="./js/clock.js"></script>
+  <script src="./js/quotes.js"></script>
+  <script src="./js/greetings.js"></script>
+  <script src="./js/toDo.js"></script>
+  <script src="./js/weather.js"></script>
+  <script src="./js/reset.js"></script>
+</body>
+
+</html>

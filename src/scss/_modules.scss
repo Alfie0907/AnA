@@ -1,0 +1,16 @@
+%inputBox {
+    width:calc(100% - 3vw);
+    margin-top:10px;
+    color:inherit;
+    font-size:#{"min(48px, 5vw)"};
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+    border:none;
+    outline:none;
+    border-bottom:3px solid floralwhite;
+  }
+  
+  %guideMsg {
+    font-size:#{"min(48px, 5vw)"};
+  }
